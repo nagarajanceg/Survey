@@ -19,7 +19,7 @@ var orgSchema = new Schema({
 		type: String,
 		required: true
 	},
-	emailid: {
+	email_id: {
 		type : String,
 		required : true
 	},

@@ -10,7 +10,6 @@ config.env = process.env.NODE_ENV;
 var envConfig ;
 try{
 	envConfig = require('./'+config.env);
-	console.log("eeee ",envConfig);
 	envConfig = envConfig || {};
 } catch(e){
 	envConfig = {};
